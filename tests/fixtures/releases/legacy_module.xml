@@ -1,0 +1,91 @@
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Test Module</title>
+  <short_name>test</short_name>
+  <type>project_module</type>
+  <supported_branches>8.x-1.,8.x-2.</supported_branches>
+  <project_status>published</project_status>
+  <releases>
+    <release>
+      <version>8.x-2.4</version>
+      <tag>8.x-2.4</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-2.4</release_link>
+      <date>1656936801</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-2.6</version>
+      <tag>8.x-2.6</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-2.6</release_link>
+      <date>1698308577</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-2.5</version>
+      <tag>8.x-2.5</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-2.5</release_link>
+      <date>1698096457</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-2.0-rc1</version>
+      <tag>8.x-2.0-rc1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-2.0-rc1</release_link>
+      <date>1572542288</date>
+      <security>RC releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>^8.8 || ^9</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-1.0-beta3</version>
+      <tag>8.x-1.0-beta3</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.0-beta3</release_link>
+      <date>1489063682</date>
+      <security>Beta releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>8.x</core_compatibility>
+    </release>
+    <release>
+      <name>test 8.x-1.11</name>
+      <version>8.x-1.11</version>
+      <tag>8.x-1.11</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.11</release_link>
+      <date>1698096504</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-1.12</version>
+      <tag>8.x-1.12</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.12</release_link>
+      <date>1698308496</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-1.x-dev</version>
+      <tag>8.x-1.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.x-dev</release_link>
+      <date>1698307852</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-2.x-dev</version>
+      <tag>8.x-2.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-2.x-dev</release_link>
+      <date>1698307951</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+  </releases>
+</project>

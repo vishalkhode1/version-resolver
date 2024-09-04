@@ -1,0 +1,90 @@
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Test Module</title>
+  <short_name>test</short_name>
+  <type>project_module</type>
+  <supported_branches>2.0.,2.1.,8.x-1.</supported_branches>
+  <project_status>published</project_status>
+  <releases>
+    <release>
+      <version>2.1.0-alpha1</version>
+      <tag>2.1.0-alpha1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/2.1.0-alpha1</release_link>
+      <date>1656936801</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8 || ^9 || ^10 || ^11</core_compatibility>
+    </release>
+    <release>
+      <version>2.0.4</version>
+      <tag>2.0.4</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/2.0.4</release_link>
+      <date>1698308577</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10 || ^11</core_compatibility>
+    </release>
+    <release>
+      <version>2.0.3</version>
+      <tag>2.0.3</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/2.0.3</release_link>
+      <date>1698096457</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>1.9.3</version>
+      <tag>1.9.3</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/1.9.3</release_link>
+      <date>1698096457</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>1.9.2</version>
+      <tag>1.9.2</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/1.9.2</release_link>
+      <date>1698096457</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>1.9.x-dev</version>
+      <tag>1.9.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/1.9.x</release_link>
+      <date>1698096457</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10</core_compatibility>
+    </release>
+    <release>
+      <version>2.x-dev</version>
+      <tag>2.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/2.x-dev</release_link>
+      <date>1572542288</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>^8.8 || ^9</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-1.4-beta1</version>
+      <tag>8.x-1.4-beta1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.4-beta1</release_link>
+      <date>1489063682</date>
+      <security>Beta releases are not covered by Drupal security advisories.</security>
+      <core_compatibility>8.x</core_compatibility>
+    </release>
+    <release>
+      <version>8.x-1.x-dev</version>
+      <tag>8.x-1.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.x</release_link>
+      <date>1698096504</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+      <core_compatibility>^8.8 || ^9 || ^10 || ^11</core_compatibility>
+    </release>
+  </releases>
+</project>

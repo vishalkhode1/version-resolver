@@ -1,0 +1,16 @@
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Test</title>
+  <short_name>test</short_name>
+  <type>project_module</type>
+  <project_status>unsupported</project_status>
+  <releases>
+    <release>
+      <version>8.x-1.x-dev</version>
+      <tag>8.x-1.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/test/releases/8.x-1.x-dev</release_link>
+      <date>1380568703</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+  </releases>
+</project>

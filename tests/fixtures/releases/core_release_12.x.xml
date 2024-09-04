@@ -1,0 +1,265 @@
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Drupal core</title>
+  <short_name>drupal</short_name>
+  <type>project_core</type>
+  <supported_branches>12.0.,11.3.,11.4.</supported_branches>
+  <project_status>published</project_status>
+  <releases>
+    <release>
+      <version>11.3.0</version>
+      <tag>11.3.0</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.3.0</release_link>
+      <date>1723108396</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.3.2</version>
+      <tag>11.3.2</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.3.2</release_link>
+      <date>1722578454</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.2.0</version>
+      <tag>11.2.0</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.2.0</release_link>
+      <date>1722578454</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.2.1</version>
+      <tag>11.2.1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.2.1</release_link>
+      <date>1722578454</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.3.1</version>
+      <tag>11.3.1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.3.1</release_link>
+      <date>1722578454</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.4.0-rc1</version>
+      <tag>11.4.0-rc1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.4.0-rc1</release_link>
+      <date>1720736512</date>
+      <security>RC releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>12.0.0-alpha1</version>
+      <tag>12.0.0-alpha1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/12.0.0-alpha1</release_link>
+      <date>1720094095</date>
+      <security>Alpha releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.3.0</version>
+      <tag>10.3.0</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.3.0</release_link>
+      <date>1718911125</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.4.1</version>
+      <tag>10.4.1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.4.1</release_link>
+      <date>1720736512</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.4.1-rc1</version>
+      <tag>10.4.1-rc1</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.4.1-rc1</release_link>
+      <date>1720736512</date>
+      <security>RC releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.4.1-beta3</version>
+      <tag>10.4.1-beta3</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.4.1-beta3</release_link>
+      <date>1720736512</date>
+      <security>Beta releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.2.7</version>
+      <tag>10.2.7</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.2.7</release_link>
+      <date>1717660024</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.2.6</version>
+      <tag>10.2.6</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.2.6</release_link>
+      <date>1714597701</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.2.5</version>
+      <tag>10.2.5</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.2.5</release_link>
+      <date>1712130945</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.1.8</version>
+      <tag>10.1.8</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.1.8</release_link>
+      <date>1705512711</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.0.11</version>
+      <tag>10.0.11</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.0.11</release_link>
+      <date>1695228927</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>10.0.10</version>
+      <tag>10.0.10</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.0.10</release_link>
+      <date>1688549719</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>9.5.11</version>
+      <tag>9.5.11</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/9.5.11</release_link>
+      <date>1695228016</date>
+      <security covered="1">Covered by Drupal's security advisory policy</security>
+    </release>
+    <release>
+      <version>11.0.x-dev</version>
+      <tag>11.0.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.0.x-dev</release_link>
+      <date>1725006655</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>11.x-dev</version>
+      <tag>11.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>12.x-dev</version>
+      <tag>12.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/12.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>12.0.x-dev</version>
+      <tag>12.0.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/12.0.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>11.3.x-dev</version>
+      <tag>11.3.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.3.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>11.2.x-dev</version>
+      <tag>11.2.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.2.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>11.4.x-dev</version>
+      <tag>11.4.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/11.4.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.x-dev</version>
+      <tag>10.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.x-dev</release_link>
+      <date>1725063426</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.4.x-dev</version>
+      <tag>10.4.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.4.x-dev</release_link>
+      <date>1725063014</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.3.x-dev</version>
+      <tag>10.3.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.3.x-dev</release_link>
+      <date>1725003468</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.2.x-dev</version>
+      <tag>10.2.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.2.x-dev</release_link>
+      <date>1717659333</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.1.x-dev</version>
+      <tag>10.1.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.1.x-dev</release_link>
+      <date>1713001795</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>10.0.x-dev</version>
+      <tag>10.0.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/10.0.x-dev</release_link>
+      <date>1696930730</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+    <release>
+      <version>9.5.x-dev</version>
+      <tag>9.5.x</tag>
+      <status>published</status>
+      <release_link>https://www.drupal.org/project/drupal/releases/9.5.x-dev</release_link>
+      <date>1701801362</date>
+      <security>Dev releases are not covered by Drupal security advisories.</security>
+    </release>
+  </releases>
+</project>

@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '*'
+    paths-ignore:
+      - README.md
+  pull_request:
+    branches:
+      - 1.x
+      - 1.0.x
+    paths-ignore:
+      - README.md
+permissions:
+  contents: read
+
+jobs:
+
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: "ubuntu-latest"
+            php: "7.4"
+            env: 'HIGHEST_LOWEST="update --prefer-lowest"'
+            coverage: "none"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          # Only report coverage once
+          coverage: ${{ matrix.coverage }}
+
+      - name: Validate composer.json and composer.lock
+        run: composer validate --strict
+
+      - name: Cache Composer packages
+        id: composer-cache
+        uses: actions/cache@v3
+        with:
+          path: vendor
+          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-php-
+
+      - name: Install dependencies
+        run: composer -n ${HIGHEST_LOWEST-install} --prefer-dist -o
+
+      - name: Run test suite
+        if: matrix.coverage == 'none'
+        run: composer run-script test
+
+      - name: Run coverage
+        if: matrix.coverage == 'pcov'
+        run: composer run-script coverage
+
+      - name: Upload coverage results to Coveralls
+        if: matrix.coverage == 'pcov'
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: composer run-script coveralls

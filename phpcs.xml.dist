@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="VersionResolver">
+
+    <description>Version Resolver PHP CodeSniffer configuration.</description>
+
+    <arg name="extensions" value="php" />
+
+    <arg name="colors"/>
+
+    <arg name="parallel" value="10"/>
+
+    <file>.</file>
+
+    <exclude-pattern>vendor/*</exclude-pattern>
+
+    <rule ref="AcquiaDrupalStrict" />
+
+</ruleset>
