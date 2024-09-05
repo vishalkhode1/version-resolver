@@ -13,12 +13,12 @@ contributed modules/themes, this library offers a simple API to access such data
 - Resolve different Drupal core versions, including the current version, development versions, and next minor versions.
 
 ### Requirements
-- **PHP 7.4** and above.
+- **PHP 8.1** and above.
 - **Composer** for installation.
 - Internet access to query data from drupal.org.
 
 ### Installation
-To install this library, run below command:
+To install, you can run below command:
 
 ```shell
 composer require dt/version-resolver
