@@ -25,6 +25,9 @@
     <exclude>
       <directory>vendor</directory>
     </exclude>
+    <report>
+      <html outputDirectory="coverage" lowUpperBound="50" highLowerBound="90"/>
+    </report>
   </coverage>
 <!--    <coverage cacheDirectory="var/phpunit/coverage-cache" pathCoverage="true" includeUncoveredFiles="true">-->
 <!--      <report>-->

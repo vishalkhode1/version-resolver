@@ -12,6 +12,7 @@ class UnsupportedVersionResolverTest extends VersionResolverTestBase {
   protected function setUp(): void {
     $this->mockXmlPath = $this->getFixtureDirectory() . "/fixtures/releases/unsupported_module.xml";
     parent::setUp();
+    // $this->resolver = new VersionResolver("test", $this->getLoader());
   }
 
   protected function getSupportedReleases(): array {

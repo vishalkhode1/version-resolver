@@ -6,7 +6,7 @@ namespace DrupalTool\Resolver;
 
 use DrupalTool\Resolver\Enum\CoreVersionResolverEnum;
 use DrupalTool\Resolver\Enum\StabilityEnum;
-use DrupalTool\Resolver\Release\ReleaseLoaderInterface;
+use DrupalTool\Resolver\Loader\LoaderInterface;
 
 /**
  * Resolve and manages Drupal core versions based on data from an XML resource.
@@ -16,19 +16,8 @@ class CoreVersionResolver extends VersionResolver implements CoreVersionResolver
   /**
    * {@inheritdoc}
    */
-  public function __construct(string $project_name, ?ReleaseLoaderInterface $release_loader = NULL) {
+  public function __construct(string $project_name, ?LoaderInterface $release_loader = NULL) {
     parent::__construct("drupal", $release_loader);
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  protected function getFilteredReleases(): array {
-    if ($this->filteredReleases) {
-      return $this->filteredReleases;
-    }
-    $this->load();
-    return $this->filteredReleases;
   }
 
   /**

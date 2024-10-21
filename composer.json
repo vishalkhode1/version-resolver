@@ -16,19 +16,17 @@
     ],
     "homepage": "https://github.com/vishalkhode1/version-resolver",
     "require": {
-        "php": "^8.1",
-        "ext-json": "*",
-        "ext-libxml": "*",
-        "ext-simplexml": "*",
-        "guzzlehttp/guzzle": "^7.9"
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.9",
+        "hassankhan/config": "^3.1"
     },
     "require-dev": {
         "acquia/coding-standards": "^3.0",
         "ergebnis/composer-normalize": "^2.43",
         "php-coveralls/php-coveralls": "^2.7",
         "php-parallel-lint/php-parallel-lint": "^1.4",
-        "phpro/grumphp": "^2.7",
-        "phpunit/phpunit": "^10"
+        "phpro/grumphp": "^1.5 || ^2.7",
+        "phpunit/phpunit": "^9.6"
     },
     "minimum-stability": "stable",
     "autoload": {

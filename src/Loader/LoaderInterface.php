@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace DrupalTool\Resolver\Loader;
 
+use Noodlehaus\ConfigInterface;
+
 /**
  * Interface to manage files.
  */
@@ -15,7 +17,7 @@ interface LoaderInterface {
    * @param string $path
    *   The path/url for data to load.
    */
-  public function load(string $path): array;
+  public function load(string $path): ?ConfigInterface;
 
   /**
    * Validates the data for given path/url.

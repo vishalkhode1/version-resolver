@@ -5,8 +5,17 @@ declare(strict_types=1);
 namespace DrupalTool\Resolver\Tests\Resolvers;
 
 use DrupalTool\Resolver\CoreVersionResolver;
+use DrupalTool\Resolver\VersionResolver;
 
 class DrupalCoreVersionResolverTest extends VersionResolverTestBase {
+
+  /**
+   * {@inheritdoc}
+   */
+  public function __construct(?string $name = NULL, array $data = [], $dataName = '') {
+    parent::__construct($name, $data, $dataName);
+    $this->remoteProjectPath = VersionResolver::BASE_URL . "/drupal/current";
+  }
 
   /**
    * {@inheritdoc}
@@ -14,7 +23,7 @@ class DrupalCoreVersionResolverTest extends VersionResolverTestBase {
   protected function setUp(): void {
     $this->mockXmlPath = $this->getFixtureDirectory() . "/fixtures/releases/core_release.xml";
     parent::setUp();
-    $this->resolver = new CoreVersionResolver("drupal", $this->getReleaseLoader());
+    $this->resolver = new CoreVersionResolver("test", $this->getLoader());
   }
 
   public function getSupportedReleases(): array {
