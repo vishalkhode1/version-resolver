@@ -4,10 +4,10 @@
     "license": "MIT",
     "keywords": [
         "drupal",
-        "drupal tool",
+        "drupal library",
         "version resolver",
         "php library",
-        "drupal tool version resolver"
+        "drupal version resolver"
     ],
     "authors": [
         {

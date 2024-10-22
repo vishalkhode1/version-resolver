@@ -1,8 +1,8 @@
 [![CI](https://github.com/grasmash/yaml-expander/actions/workflows/php.yml/badge.svg)](https://github.com/vishalkhode1/version-resolver/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/vishalkhode1/version-resolver/badge.svg)](https://coveralls.io/github/vishalkhode1/version-resolver)
 
-## Drupal Tool Version Resolver Library
+## Drupal Version Resolver Library
 
-The **Drupal Tool Version Resolver** Library is a PHP library designed to help you
+The **Drupal Version Resolver** Library is a PHP library designed to help you
 easily resolve Drupal project versions, supported releases, and retrieve all releases hosted
 on [Drupal.org](https://www.drupal.org/). Whether you need to fetch release information for Drupal core or
 contributed modules/themes, this library offers a simple API to access such data.
