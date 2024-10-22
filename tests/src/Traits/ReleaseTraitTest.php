@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Traits;
+namespace Drupify\Resolver\Tests\Traits;
 
-use DrupalTool\Resolver\Traits\ReleaseTrait;
+use Drupify\Resolver\Traits\ReleaseTrait;
 use PHPUnit\Framework\TestCase;
 
 class ReleaseTraitTest extends TestCase {

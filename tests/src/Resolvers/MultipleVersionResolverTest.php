@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Resolvers;
+namespace Drupify\Resolver\Tests\Resolvers;
 
 class MultipleVersionResolverTest extends VersionResolverTestBase {
 

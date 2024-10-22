@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Loader;
+namespace Drupify\Resolver\Tests\Loader;
 
-use DrupalTool\Resolver\Filesystem\Filesystem;
+use Drupify\Resolver\Filesystem\Filesystem;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

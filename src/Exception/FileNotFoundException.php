@@ -1,6 +1,6 @@
 <?php
 
-namespace DrupalTool\Resolver\Exception;
+namespace Drupify\Resolver\Exception;
 
 /**
  * A file not found exception.

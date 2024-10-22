@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Loader;
+namespace Drupify\Resolver\Loader;
 
-use DrupalTool\Resolver\Exception\FileNotFoundException;
-use DrupalTool\Resolver\Filesystem\Filesystem;
-use DrupalTool\Resolver\Filesystem\FilesystemInterface;
+use Drupify\Resolver\Exception\FileNotFoundException;
+use Drupify\Resolver\Filesystem\Filesystem;
+use Drupify\Resolver\Filesystem\FilesystemInterface;
 use Noodlehaus\Config;
 use Noodlehaus\ConfigInterface;
 use Noodlehaus\Parser\Xml;
@@ -21,7 +21,7 @@ class XmlFileLoader implements LoaderInterface {
   /**
    * Holds file system object.
    *
-   * @var \DrupalTool\Resolver\Filesystem\Filesystem
+   * @var \Drupify\Resolver\Filesystem\Filesystem
    */
   protected $fileSystem;
 
@@ -35,7 +35,7 @@ class XmlFileLoader implements LoaderInterface {
   /**
    * Construct a file loader object.
    *
-   * @param \DrupalTool\Resolver\Filesystem\Filesystem|null $file_system
+   * @param \Drupify\Resolver\Filesystem\Filesystem|null $file_system
    *   Given file_system object or NULL.
    */
   public function __construct(?FilesystemInterface $file_system = NULL) {
@@ -46,7 +46,7 @@ class XmlFileLoader implements LoaderInterface {
   /**
    * {@inheritdoc}
    *
-   * @throws \DrupalTool\Resolver\Exception\FileNotFoundException
+   * @throws \Drupify\Resolver\Exception\FileNotFoundException
    */
   public function load(string $path): ?ConfigInterface {
     if ($this->validate($path)) {
@@ -58,7 +58,7 @@ class XmlFileLoader implements LoaderInterface {
   /**
    * {@inheritdoc}
    *
-   * @throws \DrupalTool\Resolver\Exception\FileNotFoundException
+   * @throws \Drupify\Resolver\Exception\FileNotFoundException
    * @throws \Exception
    */
   public function validate(string $path, $data = NULL): bool {

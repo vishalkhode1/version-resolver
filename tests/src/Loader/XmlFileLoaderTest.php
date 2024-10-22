@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Loader;
+namespace Drupify\Resolver\Tests\Loader;
 
-use DrupalTool\Resolver\Exception\FileNotFoundException;
-use DrupalTool\Resolver\Loader\XmlFileLoader;
+use Drupify\Resolver\Exception\FileNotFoundException;
+use Drupify\Resolver\Loader\XmlFileLoader;
 
 /**
  * Loads the file.

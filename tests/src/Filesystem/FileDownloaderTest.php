@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Filesystem;
+namespace Drupify\Resolver\Tests\Filesystem;
 
-use DrupalTool\Resolver\Filesystem\FileDownloader;
-use DrupalTool\Resolver\Filesystem\Filesystem;
+use Drupify\Resolver\Filesystem\FileDownloader;
+use Drupify\Resolver\Filesystem\Filesystem;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

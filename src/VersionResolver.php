@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver;
+namespace Drupify\Resolver;
 
-use DrupalTool\Resolver\Enum\CoreVersionResolverEnum;
-use DrupalTool\Resolver\Enum\StabilityEnum;
+use Drupify\Resolver\Enum\CoreVersionResolverEnum;
+use Drupify\Resolver\Enum\StabilityEnum;
 
 /**
  * Resolve and manages Drupal core versions based on data from an XML resource.

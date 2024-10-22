@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver;
+namespace Drupify\Resolver;
 
 /**
  * Interface to resolve drupal project release.

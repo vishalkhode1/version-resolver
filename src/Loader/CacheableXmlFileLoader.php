@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Loader;
+namespace Drupify\Resolver\Loader;
 
-use DrupalTool\Resolver\Filesystem\FileDownloader;
-use DrupalTool\Resolver\Filesystem\FileDownloaderInterface;
-use DrupalTool\Resolver\Filesystem\FilesystemInterface;
+use Drupify\Resolver\Filesystem\FileDownloader;
+use Drupify\Resolver\Filesystem\FileDownloaderInterface;
+use Drupify\Resolver\Filesystem\FilesystemInterface;
 use Noodlehaus\ConfigInterface;
 
 /**
@@ -18,7 +18,7 @@ class CacheableXmlFileLoader extends XmlFileLoader {
   /**
    * Holds file downloader object.
    *
-   * @var \DrupalTool\Resolver\Filesystem\FileDownloader
+   * @var \Drupify\Resolver\Filesystem\FileDownloader
    */
   protected $downloader;
 

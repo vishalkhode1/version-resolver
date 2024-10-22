@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Enum;
+namespace Drupify\Resolver\Enum;
 
 /**
  * Class to manage all Drupal Core version resolver.

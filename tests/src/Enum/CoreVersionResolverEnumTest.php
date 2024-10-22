@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Enum;
+namespace Drupify\Resolver\Tests\Enum;
 
-use DrupalTool\Resolver\Enum\CoreVersionResolverEnum;
+use Drupify\Resolver\Enum\CoreVersionResolverEnum;
 use PHPUnit\Framework\TestCase;
 
 class CoreVersionResolverEnumTest extends TestCase {

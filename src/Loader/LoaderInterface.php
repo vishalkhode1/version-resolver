@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Loader;
+namespace Drupify\Resolver\Loader;
 
 use Noodlehaus\ConfigInterface;
 

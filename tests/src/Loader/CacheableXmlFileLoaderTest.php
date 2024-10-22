@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Loader;
+namespace Drupify\Resolver\Tests\Loader;
 
-use DrupalTool\Resolver\Filesystem\FileDownloader;
-use DrupalTool\Resolver\Loader\CacheableXmlFileLoader;
+use Drupify\Resolver\Filesystem\FileDownloader;
+use Drupify\Resolver\Loader\CacheableXmlFileLoader;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

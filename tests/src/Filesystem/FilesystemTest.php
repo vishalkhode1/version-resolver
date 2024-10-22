@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Filesystem;
+namespace Drupify\Resolver\Tests\Filesystem;
 
-use DrupalTool\Resolver\Filesystem\Filesystem;
+use Drupify\Resolver\Filesystem\Filesystem;
 use PHPUnit\Framework\TestCase;
 
 class FilesystemTest extends TestCase {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver;
+namespace Drupify\Resolver;
 
-use DrupalTool\Resolver\Enum\StabilityEnum;
-use DrupalTool\Resolver\Loader\CacheableXmlFileLoader;
-use DrupalTool\Resolver\Loader\LoaderInterface;
-use DrupalTool\Resolver\Traits\ReleaseTrait;
+use Drupify\Resolver\Enum\StabilityEnum;
+use Drupify\Resolver\Loader\CacheableXmlFileLoader;
+use Drupify\Resolver\Loader\LoaderInterface;
+use Drupify\Resolver\Traits\ReleaseTrait;
 
 /**
  * Resolve and manages Drupal core versions based on data from an XML resource.
@@ -23,7 +23,7 @@ abstract class VersionResolverBase implements VersionResolverInterface {
   /**
    * Instance of XmlLoader for loading XML data.
    *
-   * @var \DrupalTool\Resolver\Loader\LoaderInterface
+   * @var \Drupify\Resolver\Loader\LoaderInterface
    */
   protected $loader;
 
@@ -53,7 +53,7 @@ abstract class VersionResolverBase implements VersionResolverInterface {
    *
    * @param string $project_name
    *   Given project name.
-   * @param \DrupalTool\Resolver\Loader\LoaderInterface|null $loader
+   * @param \Drupify\Resolver\Loader\LoaderInterface|null $loader
    *   An object of release loader.
    */
   public function __construct(string $project_name, ?LoaderInterface $loader = NULL) {
@@ -69,7 +69,7 @@ abstract class VersionResolverBase implements VersionResolverInterface {
    * This method fetches all releases, filters supported releases,
    * and then groups and sorts them.
    *
-   * @throws \DrupalTool\Resolver\Exception\FileNotFoundException
+   * @throws \Drupify\Resolver\Exception\FileNotFoundException
    * @throws \GuzzleHttp\Exception\GuzzleException
    */
   protected function load(): void {
@@ -133,7 +133,7 @@ abstract class VersionResolverBase implements VersionResolverInterface {
    * @param array $releases
    *   An array of all releases.
    *
-   * @return \DrupalTool\Resolver\Resolver\VersionResolverInterface
+   * @return \Drupify\Resolver\Resolver\VersionResolverInterface
    *   Returns the instance of VersionResolver for method chaining.
    */
   protected function filterSupportedReleases(array $releases): array {
@@ -161,7 +161,7 @@ abstract class VersionResolverBase implements VersionResolverInterface {
    * @param array $releases
    *   An array of releases.
    *
-   * @return \DrupalTool\Resolver\Resolver\VersionResolverInterface
+   * @return \Drupify\Resolver\Resolver\VersionResolverInterface
    *   Returns the instance of VersionResolver for method chaining.
    */
   protected function groupReleases(array &$releases): VersionResolverInterface {

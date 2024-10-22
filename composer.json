@@ -1,13 +1,13 @@
 {
-    "name": "dt/version-resolver",
+    "name": "drupify/version-resolver",
     "description": "A PHP library for resolving version, supported releases etc. for Drupal Core, modules, themes, and other related projects.",
     "license": "MIT",
     "keywords": [
         "drupal",
-        "drupal tools",
+        "drupal tool",
         "version resolver",
         "php library",
-        "drupal tools version resolver"
+        "drupal tool version resolver"
     ],
     "authors": [
         {
@@ -31,12 +31,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "DrupalTool\\Resolver\\": "src/"
+            "Drupify\\Resolver\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DrupalTool\\Resolver\\Tests\\": "tests/src/"
+            "Drupify\\Resolver\\Tests\\": "tests/src/"
         }
     },
     "config": {

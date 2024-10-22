@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Resolvers;
+namespace Drupify\Resolver\Tests\Resolvers;
 
-use DrupalTool\Resolver\Filesystem\FileDownloader;
-use DrupalTool\Resolver\Filesystem\Filesystem;
-use DrupalTool\Resolver\Loader\CacheableXmlFileLoader;
-use DrupalTool\Resolver\Loader\LoaderInterface;
-use DrupalTool\Resolver\VersionResolver;
+use Drupify\Resolver\Filesystem\FileDownloader;
+use Drupify\Resolver\Filesystem\Filesystem;
+use Drupify\Resolver\Loader\CacheableXmlFileLoader;
+use Drupify\Resolver\Loader\LoaderInterface;
+use Drupify\Resolver\VersionResolver;
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Tests\Resolvers;
+namespace Drupify\Resolver\Tests\Resolvers;
 
-use DrupalTool\Resolver\CoreVersionResolver;
-use DrupalTool\Resolver\VersionResolver;
+use Drupify\Resolver\CoreVersionResolver;
+use Drupify\Resolver\VersionResolver;
 
 class DrupalCoreUpcomingVersionResolverTest extends VersionResolverTestBase {
 

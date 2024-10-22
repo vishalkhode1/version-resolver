@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Filesystem;
+namespace Drupify\Resolver\Filesystem;
 
 /**
  * Class to manage file.

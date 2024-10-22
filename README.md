@@ -21,14 +21,14 @@ contributed modules/themes, this library offers a simple API to access such data
 To install, you can run below command:
 
 ```shell
-composer require dt/version-resolver
+composer require drupify/version-resolver
 ```
 
 ### Example Usage
 Here’s an example to retrieve the releases of a module hosted on Drupal.org:
 
 ```php
-use DrupalTool\Resolver\VersionResolver;
+use Drupify\Resolver\VersionResolver;
 
 // Initialize the resolver with the project name.
 $resolver = new VersionResolver('token');
@@ -72,7 +72,7 @@ The library also provides methods to resolve various types of Drupal core versio
 
 Example usage:
 ```php
-use DrupalTool\Resolver\CoreVersionResolver;
+use Drupify\Resolver\CoreVersionResolver;
 
 $resolver = new CoreVersionResolver();
 

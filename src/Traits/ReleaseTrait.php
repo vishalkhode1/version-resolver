@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DrupalTool\Resolver\Traits;
+namespace Drupify\Resolver\Traits;
 
 /**
  * Trait to manage release.
