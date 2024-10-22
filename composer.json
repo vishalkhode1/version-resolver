@@ -16,7 +16,7 @@
     ],
     "homepage": "https://github.com/vishalkhode1/version-resolver",
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4",
         "guzzlehttp/guzzle": "^7.9",
         "hassankhan/config": "^3.1"
     },

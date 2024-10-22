@@ -13,7 +13,7 @@ contributed modules/themes, this library offers a simple API to access such data
 - Resolve different Drupal core versions, including the current version, development versions, and next minor versions.
 
 ### Requirements
-- **PHP 8.1** and above.
+- **PHP 7.4**.
 - **Composer** for installation.
 - Internet access to query data from drupal.org.
 
